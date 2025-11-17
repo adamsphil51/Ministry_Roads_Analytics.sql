@@ -12,14 +12,13 @@ CREATE TABLE RoadProjects (
     Status VARCHAR(20) -- e.g., Completed, Ongoing, Delayed
 );
 
--- Insert 50 sample road projects
+-- Road projects
 INSERT INTO RoadProjects (ProjectID, ProjectName, County, Contractor, Budget, ActualSpend, StartDate, EndDate, Status) VALUES
 (1, 'Nairobi-Kajiado Highway', 'Nairobi', 'ABC Contractors', 500000000, 480000000, '2023-01-01', '2024-06-30', 'Ongoing'),
 (2, 'Mombasa-Malindi Road', 'Mombasa', 'XYZ Builders', 350000000, 340000000, '2023-02-15', '2024-05-31', 'Ongoing'),
 (3, 'Eldoret-Kitale Road', 'Uasin Gishu', 'Delta Roads', 400000000, 420000000, '2022-12-01', '2024-03-31', 'Delayed'),
 (4, 'Nakuru-Naivasha Road', 'Nakuru', 'Omega Constructions', 250000000, 245000000, '2023-03-01', '2024-04-30', 'Ongoing'),
 (5, 'Kisumu-Busia Road', 'Kisumu', 'Alpha Builders', 300000000, 310000000, '2023-01-15', '2024-07-31', 'Delayed'),
--- 45 more projects (I'll summarize here for brevity; in GitHub you would include all 50)
 (6, 'Nyeri-Kirinyaga Road', 'Nyeri', 'Beta Roads', 200000000, 198000000, '2023-01-10', '2024-06-30', 'Ongoing'),
 (7, 'Kitui-Machakos Road', 'Kitui', 'Gamma Construction', 180000000, 185000000, '2023-02-01', '2024-05-31', 'Delayed'),
 (8, 'Meru-Maua Road', 'Meru', 'Delta Roads', 220000000, 215000000, '2023-03-01', '2024-08-31', 'Ongoing'),
